@@ -4,7 +4,7 @@ import { goto } from "$app/navigation";
 import { user } from "../stores";
 
 export const poiService = {
-	baseUrl: "http://localhost:3000",
+	baseUrl: "https://poi-tracker-assignment-2.onrender.com",
 
 	async login(email, password) {
 		try {
